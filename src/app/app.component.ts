@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'FormValidationNew';
+  onSubmit(data: any) {
+    console.warn(data)
+    }
 }
